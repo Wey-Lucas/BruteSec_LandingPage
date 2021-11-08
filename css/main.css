@@ -1,0 +1,512 @@
+* {
+	/*font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+	font-weight: 600;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	
+}
+
+/* General Components Styling*/
+
+html {
+	scroll-behavior: smooth;
+	border-bottom: 15px;
+	overflow-x: hidden;
+	color: #FFF;
+}
+
+span{
+	font-weight: 350;
+}
+
+body{
+	font-weight: 300;
+}
+
+p{
+	font-weight: 350;
+}
+
+.container {
+	max-width: 70%;
+}
+
+.container-fluid {
+	max-width: 95%;
+}
+
+#loop{
+	position: static;
+    overflow: hidden;
+    background-color: black;
+    width:100%;
+    height:100%;
+}
+
+#loop video {
+	position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+#loop .container{
+	z-index: 2;
+    position: relative;
+}
+
+.color {
+	background-color: transparent;
+}
+
+.change-color {
+	background-color: rgba(0, 0, 0, .5);
+	backdrop-filter: blur(2px);
+	transition: 0.5s;
+}
+
+section h1 {
+	font-weight: inherit;
+}
+
+
+footer p {
+	font-size: 15px;
+	font-weight: inherit;
+	margin-bottom: 40px;
+	align-self: left;
+}
+
+/* All Specific Detailed Classes*/
+
+.logo a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 40px;
+	float: left;
+}
+
+
+#contloop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#contloop h1 {
+	color: #FFF;
+	font-size: 3.5rem;
+}
+
+.content, .banner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;	
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.contentspacing {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 20% 0;
+}
+
+.content h3 {
+	font-size: 4rem;
+	font-weight: 350;	
+}
+
+/* Efeito e cor de underline da navbar*/
+
+.navbar-dark .navbar-nav .nav-link{
+	padding-right: 15px;
+	padding-left: 15px;
+	color: #FFF;
+}
+.img-responsive{
+	padding-left: auto;
+	padding-right: auto;
+	width: 15vw;
+	height: 10vh;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #FFF;
+}
+.navbar-dark .navbar-nav .nav-link:focus{
+	color: #FFF;
+	transition: 0.5s;
+}
+
+/* Posicionamento do cabeçalho  */
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.fading {
+	opacity: 1;
+}
+
+nav{
+	background-color: transparent;
+	z-index: 1;
+}
+
+.form-row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	width: fit-content;
+	height: fit-content;
+	justify-content: center;
+	align-content: center;
+}
+
+
+/* All ID References: */
+
+#copyright {
+	align-content: left;
+	margin-left: 0px;
+	margin-bottom: none;
+}
+
+#desc {
+	justify-content: center;
+	align-content: center;
+	margin-left: 15px;
+}
+
+#logo-footer {
+	width: 80%;
+}
+
+#copyright {
+	vertical-align: middle;
+}
+
+#linkhs {
+	color: #FFF;
+	transition: 0.5s;
+}
+
+#linkhs:hover {
+	color: #0057b0;
+	transition: 0.5s;
+}
+
+#linkhs:focus {
+	color: #0057b0;
+}
+
+
+/* HOVER do navbar */
+
+li:hover>a {
+	color: var(--color-header-transparent-text-hover);
+}
+
+li:hover .titulo:after {
+	bottom: -2px;
+	opacity: 1;
+}
+
+.titulo:after {
+	display: block;
+	content: '';
+	position: relative;
+	left: 0;
+	bottom: -0.4em;
+	margin: 0 auto -2px;
+	height: 2px;
+	width: 100%;
+	background: currentColor;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+/* Mudança e bg-color no header on scroll */
+
+#header{
+	background-color: transparent;
+}
+
+.active{
+	background: rgba(0, 0, 0, .5);
+	backdrop-filter: blur(4px);
+}
+
+/* Mudança de cor dos cards de Planos */
+
+ .card-deck .card{
+	border-color: #FFF;
+}
+
+
+/* Mudando cor e decoração de texto dos cards */
+
+a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #FFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* CARD DO CTF */
+
+.txtbox {
+    display: flex;
+	margin: 1%;
+    margin-left: auto;
+	margin-right: auto;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: #000;
+	border: 1px solid #FFF;
+    width: 45%;
+    transition: .1s; /* <- tempo da transição*/
+}
+
+/* efeito do hover */
+.txtbox:hover {
+    box-shadow: 0px 0px 10px #1b1b1b;
+    transform: scale(1.03);
+	cursor: pointer;
+}
+
+.txtbox p {
+    display: flex;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    padding: 3%;
+}
+
+.txtbox i {
+    font-size: 25px;
+}
+
+/* tamanho da fonte dos cards de Recursos */
+
+b{
+	font-weight: 400;
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    transform: translate(0);
+}
+
+/* Responsividade */
+
+
+@media (max-width: 992px){
+
+    
+	.img-responsive{
+		padding-left: 0;
+		margin-right: 0;
+		width: auto;
+		height: 10vw;
+	}
+
+	.fixed-top {
+		padding: 2%;
+	}
+
+	.content {
+		height: auto;
+		margin: 20vh 0;
+	}
+
+	#loop {
+		margin: 0;
+	}
+
+	#loop #contloop h1 {
+		font-size: 2.5rem;
+		font-weight: 350;
+		font-stretch: 200;
+		text-align: center;
+	}
+
+	.content h3 {
+		font-size: 2.2rem;
+	}
+
+	.txtbox {
+		width: 100%;
+		margin: 10% 0;
+	}
+	
+}
+
+/* Contador dos dados */
+
+.dados{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+
+
+h5, h6{
+	align-items: center;
+	margin-block-end:  0;
+	margin-block-start:  0;
+	text-align: center;
+	color: #FFF;
+}
+
+.row{
+	width: auto;
+	align-items: center;
+	justify-content: space-evenly;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.numscroller{
+	color: #FFF;
+}
+
+.card-text{
+	color: #FFF;
+}
+
+.card{
+	display: flex;
+	align-content: center;
+}
+
+.card-title{
+	font-weight: 350;
+}
+
+.card-header-dados, .card-body-dados{
+	-webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-dados{
+	width: 20vw;
+	height: 40vh;;
+	border: 1px solid transparent;
+	transition: 0.2s ease-in;
+	background-color: rgba(52, 52, 52, .3);
+}
+
+.card-dados:hover{
+	border: 1px solid rgba(0, 87, 176, .4);
+	transition: 0.2s ease-in;
+}
+
+.card-dados-text{
+	font-size: 18px;
+}
+
+.card-dados-user {
+    width: 63vw;
+    height: 10vh;
+	justify-content: left;
+	text-align: left;
+    border: 1pxsolid transparent;
+    transition: 0.2s ease-in;
+    background-color: rgba(52, 52, 52, .3);
+}
+
+.card-dados-user h5{
+ text-align: center;
+}
+
+
+.stat-title {
+    width: 100%;
+    height: 50px;
+    float:left;
+    text-align:center;
+    color:#FFF;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#FFF;
+}
+
+/*Cor de Ícones */
+
+i{
+	color: #0057b0;	
+}
+
+.bi::before, [class^="bi-"]::before {
+	font-size: 1rem;
+}
+
+#icon_dados{
+	font-size: 5rem;
+}
+
+/*Botões de Planos*/
+
+.btn{
+	background-color: transparent;
+	border-radius: 0;
+	border-color: #FFF;
+	transition: 0.1s ease-in;
+	padding: 1rem;
+	margin-bottom: auto;
+}
+
+.btn:hover{
+	border-color: #0057b0;
+	transition: 0.1s ease-in;
+}
+
+/* Teste de Gradientes */
+
+body{
+	/*background-image: linear-gradient(#010101,#00004d,#010101,#020202,#030303,#040404,#000,#020202,#030303,#040404,#000,#333333,#000) ;*/
+	/* background-image: linear-gradient(#000,#010101,#040404,#00004d,#010101,#020202,#040404,#010101,#00004d,#010101,#000); */
+	transition: ease-in;
+}
+

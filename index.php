@@ -1,0 +1,382 @@
+<html lang="pt_BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BruteSec - Web Application Firewall - WAF - HackerSec">
+    <meta property="og:description"
+        content="Proteja seu site contra invasores, malware e ataques com o melhor Firewall do mercado. Web Application Firewall WAF para o seu site.">
+    <meta property="og:url" content="https://waf.hackersec.com/">
+    <meta property="og:site_name" content="HackerSec">
+    <meta property="og:image" content="https://hackersec.com/wp-content/uploads/2021/03/hackersec-waf.png" />
+    <meta property="og:image:secure_url" content="https://hackersec.com/wp-content/uploads/2021/03/hackersec-waf.png" />
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:width" width="504">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description"
+        content="Proteja seu site contra hackers, invasores, malwares e ataques com o melhor Firewall do mercado. Web Application Firewall WAF para seu site.">
+    <meta name="twitter:title" content="BruteSec - Web Application Firewall - WAF - HackerSec">
+    <meta name="twitter:site" content="@HackerSec">
+    <meta name="twitter:image" content="https://hackersec.com/wp-content/uploads/2021/03/hackersec-waf.png">
+    <meta name="twitter:creator" content="@HackerSec">
+    <link rel="icon" href="https://brutesec.com/favicon.ico" type="image/x-icon" />
+
+    <title>BruteSec - Web Application Firewall - WAF - HackerSec</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+    <link href="css/all.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="css/aos.css">
+
+    <link rel="stylesheet" href="webfonts/bootstrap-icons/bootstrap-icons.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark-menu fixed-top navbar-expand-md transition" id="header">
+        <div class="container-fluid">
+            <img src="img/logo-brutesec.png" class="img-responsive" alt="BruteSec Logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre"><span class="titulo">SOBRE</span> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recursos"><span class="titulo"> RECURSOS</span></a>
+                    </li>
+                    <li class="nav-item nav-item">
+                        <a class="nav-link" href="#plans"><span class="titulo"> PLANOS</span></a>
+                    </li>
+                    <li class="nav-item nav-item">
+                        <a class="nav-link" href="acesso.php" class="nav-link titulo"><span class="titulo">
+                                ACESSAR</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="content" id="loop">
+        <video autoplay="" muted="" id="banner">
+            <source src="img/Efeito_2.mp4" type="video/mp4" />
+        </video>
+        <div class="container box" id="contloop">
+            <center>
+                <h1 class="display-1">Proteja sua aplicação web contra cibercriminosos.</h1>
+                <br />
+                <p>Role para baixo e descubra mais.</p>
+            </center>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <section class="contentspacing" id="grad1">
+        <div class="container">
+            <div class="vc_column-inner">
+                <center>
+                    <h3 class="display-3 align-content-center" data-aos="fade-up">Introduzindo o BruteSec</h3>
+                </center>
+                <h5 style="text-align: center; font-weight:100;" data-aos="fade-up">Apresentamos nosso WAF, futuro
+                    sistema de segurança líder no mercado.</h5>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </section>
+    <section class="content" id="sobre" id="grad2">
+        <div class="container" id="contsobre">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col" data-aos="fade-left">
+                    <h3 class="display-2 justify-content-left">Inovação em Cibersegurança</h3>
+                    <left>
+                        <br>
+                        <p class=""> Desenvolvido do zero pelos profissionais mais capacitados do mercado.</p>
+                        <br>
+                        <p class=""> Aplicabilidade abrangindo todos os portes de empresas.</p>
+                        <br>
+                        <p class="">Portfólio abrangente de recursos voltados para a proteção segurança cibernética
+                            especializada.</p>
+                        <p class="">Saiba mais em: <a id="linkhs" href="https://hackersec.com/" target="t_blank"
+                                style="text-decoration: none;" data-aos="zoom-in">hackersec.com</a></p>
+                    </left>
+                </div>
+                <div class="col" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+                    data-aos-duration="500">
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </section>
+
+    <section class="contentspacing" id="grad3">
+        <div class="container">
+            <center>
+                <h3 class="display-3">Dados Atuais</h3>
+                <br>
+            </center>
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow" data-aos="fade-left">
+
+                    <div class="card-header">
+                        <br>
+                        <h4><i class=" bi-bug" id="icon_dados"></i></h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">+ de
+                            <span class='numscroller' data-min='1' data-max='9000' data-delay='20'
+                                data-increment='20'>9000</span></h1>
+                        <h2 class="text-center">Ataques Repelidos</h2>
+                    </div>
+                </div>
+
+                <div class="card mb-4 box-shadow" data-aos="fade-down">
+
+                    <div class="card-header">
+                        <br>
+                        <h4><i class=" bi-journal-code" id="icon_dados"></i></h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title"><span class='numscroller' data-min='1' data-max='24'
+                                data-delay='1' data-increment='4'>24</span> / <span class='numscroller' data-min='1'
+                                data-max='7' data-delay='1' data-increment='3'>7</span></h1>
+                        <h2 class="text-center">Monitoramento Constante</h2>
+                    </div>
+
+                </div>
+
+                <div class="card mb-4 box-shadow" data-aos="fade-right">
+
+                    <div class="card-header">
+                        <br>
+                        <h4><i class=" bi-shield-check" id="icon_dados"></i></h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">+ de
+                            <span class='numscroller' data-min='1' data-max='1000' data-delay=''
+                                data-increment='10'>1000</span></h1>
+                        <h2 class="text-center">Sites Protegidos</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card mb-4 box-shadow" data-aos="fade-up">
+                    <div class="card-body">
+                        <h1 class="card-title text-center">E assim garantimos a segurança de mais de 1.000.000 de Usuários</h1>
+                    </div>
+
+                </div>
+
+        </div>
+    </section>
+
+    <section class="content" id="recursos">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <center>
+                <h3 class="display-4">Recursos</h3>
+                <br>
+                <p>O WAF da HackerSec é capaz de proteger qualquer aplicação web de forma rápida e eficiente.
+                    <br>
+                    Sem consumir seu web server, usando API em nuvem para proteger sua aplicação e manter-se
+                    atualizado.
+                </p>
+                <br>
+            </center>
+
+            <div type="button" data-bs-toggle="modal" data-bs-target="#ssl" class="txtbox" data-aos="zoom-out"
+                data-aos-duration="500">
+                <p>
+                    <b>
+                        <irec class="bi bi-key-fill"></irec> &nbsp; Suporte a Certificado SSL
+                    </b>
+                </p>
+            </div>
+
+            <div type="button" data-bs-toggle="modal" data-bs-target="#acesso" class="txtbox" data-aos="zoom-out"
+                data-aos-duration="1000">
+                <p>
+                    <b>
+                        <irec class="bi bi-lock-fill"></irec> &nbsp; Controle de Acesso
+                    </b>
+                </p>
+            </div>
+
+            <div type="button" data-bs-toggle="modal" data-bs-target="#suporte" class="txtbox" data-aos="zoom-out"
+                data-aos-duration="1500">
+                <p>
+                    <b>
+                        <irec class="bi bi-terminal-fill"></irec> &nbsp; Suporte Online
+                    </b>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="content" id="plans">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <center>
+                <h3 class="display-3">Utilize todo o poder do WAF com a versão PRO</h3>
+            </center>
+            <br>
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow" data-aos="fade-down-left">
+
+                    <div class="card-header">
+                        <h4 class=" font-weight-normal">Free</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$0<small class="text-muted">/mês</small>
+                        </h1>
+                        <small class="text-muted">(Acesso Restrito ao recurso)</small>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li class="text-left"><i class="bi bi-shield"></i> Website Application Firewall (WAF)
+                            </li>
+                        </ul>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <a href="https://waf.hackersec.com/start" target="t_blank" rel="noopener"
+                            class="btn btn-block btn-primary">Acessar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 box-shadow" data-aos="fade-down-right">
+
+                    <div class="card-header">
+                        <h4 class=" font-weight-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$199 <small class="text-muted">/mês</small>
+                        </h1>
+                        <small class="text-muted">(Cobrado anualmente: R$2.388,00)</small>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li class="text-left"><i class="bi bi-shield"></i> Website Application Firewall (WAF)
+                            </li>
+                            <br>
+                            <li class="text-left"><i class="bi bi-shield"></i> Detalhamento de Logs</li>
+                            <br>
+                            <li class="text-left"><i class="bi bi-shield"></i> Suporte Online</li>
+                        </ul>
+                        <a href="https://pag.ae/7WPREJBxP" target="t_blank" rel="noopener"
+                            class="btn btn-block btn-primary"> Comprar</a>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ssl">
+            <div class="modal-dialog modal-dialog-centered modal-lg" style="text-align: left;">
+                <div class="modal-content" style="color:#fafafa;background:#1d1d1f;">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ataqueLabel">Suporte a Certificado SSL</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        (Texto sobre SSL)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="acesso">
+            <div class="modal-dialog modal-dialog-centered modal-lg" style="text-align: left;">
+                <div class="modal-content" style="color:#fafafa;background:#1d1d1f;">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ataqueLabel">Controle de Acesso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        (Texto sobre Controle de Acesso)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="suporte">
+            <div class="modal-dialog modal-dialog-centered modal-lg" style="text-align: left;">
+                <div class="modal-content" style="color:#fafafa;background:#1d1d1f;">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ataqueLabel">Suporte Online</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        (Texto sobre Suporte Online)
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class=" footer py-5 bg-black text-white d-flex flex-wrap justify-content-between">
+        <div class="container">
+            <div class="row">
+                <div id="copyright" class="col-12 col-md-2 col-lg-9">
+                    <p>Copyright © HackerSec. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <a href="https://hackersec.com/" target="_blank">
+                        <img id="logo-footer"
+                            src="https://hackersec.com/wp-content/uploads/2021/01/logo_hackersec-min.png"
+                            href="https://hackersec.com/" target="_blank" alt="..." class="footer-brand img-fluid mb-2">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-numscroller.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/fade_inicio.js"></script>
+    <script src="js/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
+</body>
+
+</html>
